@@ -62,10 +62,11 @@ describe('套件的名称或标题', function(){
     /*测试代码块*/
     规格中还定义了全局方法,类似与describe方法 
     it('string', function(){
-        /*真正的测试*/
+       /*期望*/
+       expect(matcherValue).toBe(期望值);
     })
 
-}) 
+});
 
 describe("功能描述", function() {
   it("contains spec with an expectation", function() {
