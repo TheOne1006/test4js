@@ -76,5 +76,8 @@ describe("功能描述", function() {
 });
 ```
 
+具体语法参照lesson1/*
+
+#####
 
 
