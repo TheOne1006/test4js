@@ -78,6 +78,5 @@ describe("功能描述", function() {
 
 具体语法参照lesson1/*
 
-#####
-
-
+##### spy
+1. spy 还是不太懂是用来干嘛的
