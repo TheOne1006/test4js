@@ -11,6 +11,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
+    // 使用测试框架
     frameworks: ['jasmine'],
 
 
