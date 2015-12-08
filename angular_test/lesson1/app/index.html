@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>test4js-angular</title>
+  <script src="../../../bower_components/angular/angular.js"></script>
+</head>
+<body ng-app='myApp'>
+
+  <h1>
+    This is test
+  </h1>
+
+  <div class="continer" ng-controller="firstCtrl">
+    <p>name: {{name}}</p>
+    <ul>
+      <li ng-repeat="item in list">
+        {{item}}
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
+<script src="./js/app.js?v=2"></script>
+<script src="./js/server.js?v=2"></script>
+<script src="./js/ctrl.js?v=2"></script>
