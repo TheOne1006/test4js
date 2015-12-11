@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>test4js-angular</title>
+  <script src="../../../bower_components/angular/angular.js"></script>
+</head>
+<body ng-app='myApp'>
+
+  <h1>
+    This is test
+  </h1>
+
+  <div class="continer" >
+    <div class="row" ng-controller="firstCtrl">
+      <p>name: {{name}}</p>
+      <ul>
+        <li ng-repeat="item in list">
+          {{item}}
+        </li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div class="row" ng-controller="itemCtrl">
+      <p>test for js/service</p>
+      <ul>
+        <li ng-repeat="item in list">
+          {{item.id}}:{{item.label}}
+        </li>
+      </ul>
+
+      <p>- - - -</p>
+      <p>
+        {{user}}
+      </p>
+    </div>
+  </div>
+</body>
+</html>
+<script src="./js/app.js"></script>
+<script src="./js/server.js"></script>
+<script src="./js/service.js"></script>
+<script src="./js/ctrl.js"></script>

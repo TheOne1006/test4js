@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>test4js-angular</title>
+  <script src="../../../bower_components/angular/angular.js"></script>
+</head>
+<body ng-app='myApp'>
+
+  <h1>
+    This is test
+  </h1>
+
+  <div class="continer" ng-controller="homeCtrl">
+    <h2>filter</h2>
+    <ul>
+      <li>{{t1|timeAgo}}</li>
+      <li>{{t2|timeAgo}}</li>
+      <li>{{t3|timeAgo}}</li>
+      <li>{{t4|timeAgo}}</li>
+    </ul>
+  </div>
+</body>
+</html>
+<script src="./js/app.js?v=2"></script>
+<script src="./js/ctrl.js?v=2"></script>
+<script src="./js/filter.js?v=2"></script>
