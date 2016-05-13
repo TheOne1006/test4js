@@ -67,9 +67,14 @@ this.retries(4);
 ```
 
 
-### Test duration  测试期限
+### Test duration  测试期限 lesson-5
 
+结果会提示 较为缓慢的 测试组件, 通过 `this.slow( 毫秒)`这是缓慢的范围
 
+### Timeout 超时 lesson-5
+
+1. suite 组件级别
+2. Test 级别
 
 
 
