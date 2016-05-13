@@ -42,19 +42,37 @@ $ mocha -R <reporter> > 目标地址
 3. 根组件的延长执行 - `run`
 
 
-### Pending Tests
+### Pending Tests 待测试 lesson-4
+
+标记一个待测试的 任务
+
+### Exclusive Tests 独家测试 lesson-4
 
 ```js
-describe('Array', function() {
-  describe('#indexOf()', function() {
-    /**
-     * 测试结果会展示和统计
-     * 这是一个待测试的信息
-     */
-    it('should return -1 when the value is not present');
-  });
+it.only('独家测试', function(){
+    // 独家测试执行 相同层级的测试将不会执行
 });
 ```
+
+### Inclusive Tests 包容测试 lesson-4
+
+```js
+it.skip('描述', function() {});
+```
+
+### Retry Tests 重复测试 lesson-4
+
+```
+this.retries(4);
+```
+
+
+### Test duration  测试期限
+
+
+
+
+
 
 
 - - - -
