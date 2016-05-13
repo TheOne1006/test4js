@@ -33,3 +33,28 @@ $ mocha -R <reporter> > 目标地址
 ```
 
 ### 异步测试
+
+
+
+### Hooks 钩子 lesson-3
+1. `before` ,`beforeEach`
+2. 钩子中的延迟测试方法
+3. 根组件的延长执行 - `run`
+
+
+### Pending Tests
+
+```js
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    /**
+     * 测试结果会展示和统计
+     * 这是一个待测试的信息
+     */
+    it('should return -1 when the value is not present');
+  });
+});
+```
+
+
+- - - -
