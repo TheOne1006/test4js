@@ -1,7 +1,16 @@
 ## mocha 基础 FOR NODE
+提供一套测试框架,可用于 Node.js 和 浏览器
+
+目的:  
+1. 熟悉使用mocha测试 Node.js
+2. gulp 结合
+3. 实践
+4. koa 中使用 co-mocha
+
+### 灵活性
 
 1. `assertion`模块
-
+2. 允许 `should.js`, `chai.js` 等扩展
 
 ### Installation 安装
 
