@@ -81,9 +81,12 @@ this.retries(4);
 结果会提示 较为缓慢的 测试组件, 通过 `this.slow( 毫秒)`这是缓慢的范围
 
 ### Timeout 超时 lesson-5
+`this.timeout(毫秒)` 设置超时标识
 
 1. suite 组件级别
 2. Test 级别
+
+### Diff 差异对比
 
 
 
