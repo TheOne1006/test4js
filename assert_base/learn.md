@@ -12,23 +12,26 @@
 ```js
 assert(value[, message])
 assert.ok(value[, message])
+assert.ifError(value)
 assert.deepEqual(actual, expected[, message])
 assert.deepStrictEqual(actual, expected[, message])
 assert.throws(block[, error][, message])
 assert.doesNotThrow(block[, error][, message])
 assert.equal(actual, expected[, message])
-assert.fail(actual, expected, message, operator)
-assert.ifError(value)
+assert.notEqual(actual, expected[, message])
 assert.notDeepEqual(actual, expected[, message])
 assert.notDeepStrictEqual(actual, expected[, message])
-assert.notEqual(actual, expected[, message])
-assert.notStrictEqual(actual, expected[, message])
 assert.strictEqual(actual, expected[, message])
+assert.notStrictEqual(actual, expected[, message])
+assert.fail(actual, expected, message, operator)
 ```
 
-#### assert() 等同于 assert.ok()
+### assert() 等同于 assert.ok()
 - 等同于 `assert.equal(true, !!value, message);`
 - 检测值是否为真
+
+### assert.ifError()
+- 值不为 `truthy`
 
 ### assert.deepEqual()
 1. 期望对象, 实际对象,自身属性一一对比
@@ -62,8 +65,10 @@ assert.strictEqual(actual, expected[, message])
 - assert.strictEqual: 使用 `===`
 - assert.notStrictEqual: 使用`!==`
 
+### fail
 
-
+1. 抛出一个异常，显示用例的实际值(actual)和期望值（expected）
+2. 通过分隔符（operator）隔开。
 
 
 
