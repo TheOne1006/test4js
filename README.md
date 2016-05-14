@@ -39,6 +39,9 @@ js 测试之路
 2. karma_base
 3. angular_test
 4. mocha_base
+5. assert
+6. supertest
+7. demo_sz
 
 - - - - -
 
