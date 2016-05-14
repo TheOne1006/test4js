@@ -71,5 +71,13 @@ mocha - simple, flexible, fun javascript test framework for node.js & the browse
 - 官网地址: <http://mochajs.org/>
 - GITHUB 地址 <https://github.com/mochajs/mocha>
 
+
+### assert
+Node.js 系统断言库
+
+- 4.0版本的断言文档:<https://nodejs.org/dist/latest-v4.x/docs/api/assert.html>
+
+
+
 ### demo
 单元测试实战
