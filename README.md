@@ -8,6 +8,9 @@ js 测试之路
 2. **Karma**: 让测试代码跑在真正的浏览器,支持多个浏览器
 3. **Protractor**:
 4. **mocha**: Tj大神之作
+5. **assert**: nodejs 自带断言库
+6. **supertest**: tj
+7. **benchmark**: 测试js代码效率
 
 
 
@@ -77,6 +80,9 @@ Node.js 系统断言库
 
 - 4.0版本的断言文档:<https://nodejs.org/dist/latest-v4.x/docs/api/assert.html>
 
+### supertest
+
+supertest 是 superagent 的孪生库  
 
 
 ### demo
