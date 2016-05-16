@@ -27,9 +27,12 @@
 2. mocha 本地安装, 配置 `package.json` 测试命令 `npm run test`
 3. 使用 `supertest`
 4. 添加基础代码
+5. 测试代码添加, 注解
+6. 
 
 
 
 
 
-- - - 
+
+- - -
