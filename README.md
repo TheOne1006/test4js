@@ -84,6 +84,17 @@ Node.js 系统断言库
 
 supertest 是 superagent 的孪生库  
 
+```
+request(app)
+  ...
+  .expect(300,body, function(err, res) {
+    // 对于json
+    res.body;
+    // 对于html,text, json 使用
+    res.text;
+  })
+```
+
 
 ### demo
 单元测试实战
