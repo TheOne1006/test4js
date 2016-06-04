@@ -11,6 +11,7 @@ js 测试之路
 5. **assert**: nodejs 自带断言库
 6. **supertest**: tj
 7. **benchmark**: 测试js代码效率
+8. **istanbul**: 代码覆盖率
 
 
 
@@ -94,6 +95,12 @@ request(app)
     res.text;
   })
 ```
+
+### istanbul
+JS 代码覆盖率工具
+
+- GITHUB 地址 <https://github.com/gotwarlost/istanbul>
+
 
 
 ### demo

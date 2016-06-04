@@ -91,5 +91,73 @@ this.retries(4);
 
 
 
+### Mocha command arguments
+
+`mocha` 命令参数:  
+
+1. `--recursive` 递归
+  - Mocha默认只执行test子目录下面第一层的测试用例
+  - 就必须加上`--recursive`参数, 这时test子目录下面所有的测试用例 (不管在哪一层都会执行)
+2. `--help` 或 `-h` 帮助
+  - 查看Mocha的所有命令行参数
+3. `--reporter` 或 `-R`
+  - 指定测试报告的格式，默认是spec格式
+  - 更多格式 <http://mochajs.org/#reporters>
+  - `JSONCov`, `HTMLCov` 需要  node-jscoverage 库
+  - `mochawesome` 额外安装 相关库
+4. `--growl, -G`
+  - 将测试结果在桌面显示 ??
+5. `--watch，-w`
+  - 只要测试脚本有变化，就会自动运行Mocha
+6. `--bail, -b`
+  - 只要有一个测试用例没有通过，就停止执行后面的测试用例
+  - 对持续集成很有用
+7. `--grep, -g`
+  - 搜索测试用例的名称(即it块的第一个参数), 然后只执行匹配的测试用例
+8. `--invert, -i`
+  - 必须与`--grep`参数配合使用
+  - 只运行不符合条件的测试脚本
+9. `--timeout, -t`
+  - 超时时间
+10. `-slow, -s`
+  - 显示超过 slow 的测试案例事件
+
+## ES6
+
+需要先用Babel转码  
+
+```bash
+npm install babel-core babel-preset-es2015 --save-dev
+```
+
+新建一个`.babelrc`配置文件  
+
+```json
+新建一个.babelrc配置文件
+```
+
+使用 `--compilers` 参数指定测试脚本的转码器
+
+```bash
+$ ../node_modules/mocha/bin/mocha --compilers js:babel-core/register
+```
+上面代码表示，运行测试之前，先用babel-core/register模块，处理一下.js文件
+
+- `--compilers`参数后面紧跟一个用冒号分隔的字符串  
+  - 冒号左边是文件的后缀名 , 案例( js )
+  - 右边是用来处理这一类文件的模块名, 案例(babel-core/register)
+
+
+
+
+
+
+
+
+
+
+
+- - -
+
 
 - - - -
