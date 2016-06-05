@@ -100,7 +100,7 @@ request(app)
 JS 代码覆盖率工具
 
 - GITHUB 地址 <https://github.com/gotwarlost/istanbul>
-
+- 土耳其最大城市伊斯坦布尔命名，因为土耳其地毯世界闻名，而地毯是用来覆盖的
 
 
 ### demo
