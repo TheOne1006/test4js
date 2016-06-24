@@ -6,7 +6,7 @@ js 测试之路
 
 1. **Jasmine**:一个行为驱动测试JavaScript代码的开发框架,不依赖任何js框架.不需要DOM.
 2. **Karma**: 让测试代码跑在真正的浏览器,支持多个浏览器
-3. **Protractor**:
+3. **Protractor**: Angular JS应用量身打造的端到端测试框架
 4. **mocha**: Tj大神之作
 5. **assert**: nodejs 自带断言库
 6. **supertest**: tj
