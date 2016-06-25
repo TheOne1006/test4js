@@ -56,6 +56,10 @@ lesson
 > `element` 和 `by` 由 Protractor 创建,
 >> `element` 方法用于在页面查找 html 元素,它将返回一个 ElementFinder 对象,它可以用来与 元素 交互或者从它得到的信息.  
 
+- lesson-4: tutorial step 2 多场景
+- lesson-5: 元素列表
+
+
 
 
 
